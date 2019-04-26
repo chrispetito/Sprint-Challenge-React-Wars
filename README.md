@@ -26,11 +26,20 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+`React JS` is a library for building dynamic web applications. It helps to solve the scale of a large application and provides components to reuse throughout the application to keep the app dynamic regardless of its changing data.
+
 - [ ] What does it mean to _think_ in react?
+
+`Thinking in react` means to think of each component as a reusable piece of UI that can date in changing data and help with the scale of an application. It means to think about the data passing through an application and the best way to build the most efficient components to allow the data to pass through the app.
 
 - [ ] Describe state.
 
+`State` is information held in a component, which keeps track of the information between renderings. The component with state can create, update, and use it.
+
+
 - [ ] Describe props.
+
+`Props` is a way for state to be passed down from a parent component to a child component. Props can allow the child component access to the parent component's state and methods.
 
 ## Project Set Up
 
