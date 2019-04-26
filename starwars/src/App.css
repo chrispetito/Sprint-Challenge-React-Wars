@@ -1,7 +1,6 @@
 .App {
   width: 50%;
   margin: 0 auto;
-  background: rgba(255, 255, 255, 0.05);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,7 +9,6 @@
   color: white;
   margin-bottom: 1rem;
   font-family: 'Space Mono', monospace;
-  border: 1px solid red;
   width: 100%;
   text-align: center;
   margin: 0;

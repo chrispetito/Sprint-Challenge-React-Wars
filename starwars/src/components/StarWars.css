@@ -1,10 +1,8 @@
 .character-list {
-  border: 1px solid red;
   width: 50%;
   margin-top: 5rem;
 }
 .character-card {
-  border: 1px solid red;
   color: white;
   width: 100%;
   display: flex;
@@ -18,11 +16,10 @@
   min-width: 300px;
 }
 .individual-list {
-  border: 1px solid red;
   width: 100%;
   background: #4f4f4f;
+  border-radius: 0 0 10px 10px;
 }
 .character-name {
-  border: 1px solid red;
   width: 84%;
 }
