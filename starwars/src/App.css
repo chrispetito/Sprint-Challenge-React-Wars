@@ -1,8 +1,26 @@
 .App {
-  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  margin-bottom: 1rem;
 }
 /* write your parent styles in here for your App.js */
+.character-list {
+  border: 1px solid red;
+  width: 50%;
+}
+
+.character-card {
+  border: 1px solid red;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
