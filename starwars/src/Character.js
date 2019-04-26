@@ -1,4 +1,5 @@
 import React from "react";
+import './components/StarWars.css';
 
 function Character(props) {
   return (
@@ -18,6 +19,9 @@ function Character(props) {
             </li>
             <li>
               <strong>Eye Color: </strong> {props.character.eye_color}
+            </li>
+            <li>
+              <strong>Hair Color: </strong> {props.character.hair_color}
             </li>
           </ul>
         </div>
