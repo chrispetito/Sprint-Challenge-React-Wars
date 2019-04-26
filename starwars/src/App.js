@@ -9,12 +9,7 @@ class App extends Component {
     super();
     this.state = {
       starwarsChars: characters,
-      character: {
-        name: "",
-        birth_year: "",
-        homeworld: "",
-        id: Date.now()
-      }
+      character: {}
     };
   }
 
@@ -31,6 +26,7 @@ class App extends Component {
         return res.json();
       })
       .then(data => {
+        // console.log(data)
         this.setState({ starwarsChars: data.results });
       })
       .catch(err => {

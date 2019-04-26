@@ -1,30 +1,19 @@
 import React from "react";
-import './components/StarWars.css';
+import "./components/StarWars.css";
 
 function Character(props) {
   return (
-    <div>
-      <div id={props.character.id} className="character-card">
-        <h2 className='character-name'>{props.character.name}</h2>
-        <div className='individual-list'>
-          <ul>
-            <li>
-              <strong>Birth Year: </strong> {props.character.birth_year}
-            </li>
-            <li>
-              <strong>Gender: </strong> {props.character.gender}
-            </li>
-            <li>
-              <strong>Mass: </strong> {props.character.mass}
-            </li>
-            <li>
-              <strong>Eye Color: </strong> {props.character.eye_color}
-            </li>
-            <li>
-              <strong>Hair Color: </strong> {props.character.hair_color}
-            </li>
-          </ul>
-        </div>
+    <div id={props.character.created} className="character-card">
+      <h2 className="character-name">{props.character.name}</h2>
+      <div className="individual-list">
+        <ul>
+          <li>Birth Year: {props.character.birth_year}</li>
+          <li>Gender: {props.character.gender}</li>
+          <li>Mass: {props.character.mass}</li>
+          <li>Height: {props.character.height}</li>
+          <li>Eye Color: {props.character.eye_color}</li>
+          <li>Hair Color: {props.character.hair_color}</li>
+        </ul>
       </div>
     </div>
   );
