@@ -3,6 +3,7 @@ import Character from "./Character";
 import "./components/StarWars.css";
 
 function CharacterList(props) {
+    console.log('Character List props:', props) //console log
   return (
     <div className="character-list">
       {props.listProp.starwarsChars.map(character => {

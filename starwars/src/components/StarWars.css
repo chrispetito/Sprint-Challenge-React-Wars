@@ -20,6 +20,10 @@
   background: #4f4f4f;
   border-radius: 0 0 10px 10px;
 }
+.individual-list div {
+    padding-left: 4%;
+    margin: 10px 0;
+}
 .character-name {
   width: 84%;
 }
